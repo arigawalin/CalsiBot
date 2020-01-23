@@ -1,1 +1,7 @@
 *.json
+en.hjson
+it.hjson
+es.hjson
+fr.hjson
+ru.hjson
+README.md

@@ -14,46 +14,46 @@
                         Generic - Used for multiple things
      --------------------------------------------------------------------- */
   "generic.callbacks": {
-    "userBannedBy": "<a href=\"tg://user?id=%s\">Dieser Nutzer</a><b> wurde von verboten </b>%s"
+    "userBannedBy": "<a href=\"tg://user?id=%s\">Dieser Nutzer</a><b> wurde von </b>%s <b>gebannt</b>"
     # ℹ️ NOTE: Signatures are used for intelligent text switching. MUST be a uniquely identifiable portion of the full text,
     #          and NOT contain any formatting or assume the value of any dynamic values.
-    "userBannedBySignature": " wurde von verboten "
-    "userBannedAnswerText": "Benutzer gesperrt"
+    "userBannedBySignature": " wurde gebannt von "
+    "userBannedAnswerText": "Nutzer gebannt"
     # ℹ️ NOTE: Signatures are used for intelligent text switching. MUST be a uniquely identifiable portion of the full text,
     #          and NOT contain any formatting or assume the value of any dynamic values.
-    "userUnbannedBy": "<a href=\"tg://user?id=%s\">Dieser Nutzer</a><b> wurde von nicht gesperrt </b>%s"
-    "userUnbannedBySignature": " wurde von nicht gesperrt "
-    "userUnbannedAnswerText": "Benutzer nicht gesperrt"
+    "userUnbannedBy": "<a href=\"tg://user?id=%s\">Dieser Nutzer</a><b> wurde von </b>%s<b> entbannt</b>"
+    "userUnbannedBySignature": " wurde entbannt von "
+    "userUnbannedAnswerText": "Nutzer wurde entbannt"
 
     # ℹ️ Example: /JoinVerify enabled by Andy
     "featureEnabledBy": "%s<b> aktiviert von </b>%s"
-    "featureEnabledAnswerText": "%s aktiviert"
+    "featureEnabledAnswerText": "%s ist aktiviert"
     "featureAlreadyEnabled": "%s<b> ist bereits aktiviert</b>"
     "featureAlreadyEnabledAnswerText": "%s Bereits aktiviert"
     "featureDisabledBy": "%s<b> deaktiviert von </b>%s"
-    "featureDisabledAnswerText": "%s behindert"
+    "featureDisabledAnswerText": "%s ist deaktiviert"
     "featureAlreadyDisabled": "%s<b> ist bereits deaktiviert</b>"
     "featureAlreadyDisabledAnswerText": "%s Bereits deaktiviert"
 
-    "joinLimitRestrictionsReset": "<a href=\"tg://user?id=%s\">Dieser Nutzer</a><b> hatte ihre </b><code>/JoinLimit</code><b> Einschränkungen zurückgesetzt von </b>%s"
-    "joinLimitRestrictionsResetAnswerText": "Einschränkungen zurücksetzen!"
+    "joinLimitRestrictionsReset": "<b>Die </b><code>/JoinLimit</code><b>-Einschränkungen von </b><a href=\"tg://user?id=%s\">diesem Nutzer</a><b> wurden von </b>%s<b> zurückgesetzt</b>"
+    "joinLimitRestrictionsResetAnswerText": "Einschränkungen zurückgesetzt!"
 
-    "joinLockExceptionAdded": "<a href=\"tg://user?id=%s\">Dieser Nutzer</a><b> hat von eine einmalige Join-Ausnahme erhalten </b>%s\n\n<b>Wenn der Benutzer das nächste Mal beitritt, werde ich sie nicht entfernen.</b>"
+    "joinLockExceptionAdded": "<a href=\"tg://user?id=%s\">Dieser Nutzer</a><b> hat von </b>%s<b> eine einmalige Join-Ausnahme erhalten </b>\n\n<b>Wenn der Nutzer das nächste Mal beitritt, werde ich ihn nicht entfernen.</b>"
     "joinLockExceptionAddedAnswerText": "Ausnahme hinzugefügt"
 
-    "chatNameRemoved": "<b>Chat Name Entfernt von </b>%s"
-    "chatNameRemovedAnswerText": "Chat Name entfernt"
-    "chatNameNotSet": "<b>Der Chat-Name wurde nicht festgelegt, daher ist nichts zu entfernen.</b>"
-    "chatNameNotSetAnswerText": "Chat-Name nicht festgelegt"
+    "chatNameRemoved": "<b>Chatname von </b>%s<b> entfernt</b>"
+    "chatNameRemovedAnswerText": "Chatname entfernt"
+    "chatNameNotSet": "<b>Der Chatname wurde nicht festgelegt, nichts zu entfernen vorhanden.</b>"
+    "chatNameNotSetAnswerText": "Chatname nicht festgelegt"
 
-    "cantUseFeatureOnAdminsAnswerText": "Kann nicht %s Admins"
+    "cantUseFeatureOnAdminsAnswerText": "%s nicht bei Admins möglich"
 
-    "CalsiBotNoLongerAdmin": "<b>CalsiBot ist kein Administrator mehr oder verfügt nicht über ausreichende Berechtigungen. Daher ist diese Tastatur abgelaufen.</b>"
-    "CalsiBotNoLongerAdminAnswerText": "CalsiBot ist kein Administrator mehr oder verfügt nicht über ausreichende Berechtigungen. Daher ist diese Tastatur abgelaufen."
+    "CalsiBotNoLongerAdmin": "<b>CalsiBot ist kein Admin mehr oder verfügt nicht über ausreichende Berechtigungen. Diese Tastatur ist daher abgelaufen.</b>"
+    "CalsiBotNoLongerAdminAnswerText": "CalsiBot ist kein Admin mehr oder verfügt nicht über ausreichende Berechtigungen. Diese Tastatur ist daher abgelaufen."
 
     "keyboardHasExpired": "<b>Diese Tastatur ist abgelaufen.</b>"
     "keyboardHasExpiredAnswerText": "Tastatur abgelaufen"
-    "keyboardHasUpdatedPressConfirmAnswerText": "Tastatur aktualisiert, drücken Sie zum Übernehmen auf 'Bestätigen'"
+    "keyboardHasUpdatedPressConfirmAnswerText": "Tastatur aktualisiert, drücke auf 'Bestätigen' um Neuerungen anzuwenden"
   }
 
   "generic.buttons": {
@@ -64,12 +64,12 @@
     "joinChannel": "👋 Kanal beitreten"
     "tapToVerify": "🤖 Tippen Sie zur Bestätigung auf 🤖"
 
-    "banUser": "Benutzer sperren"
-    "banBot": "Bot verbieten"
-    "allowUser": "Benutzer zulassen"
-    "trustUser": "Benutzer vertrauen"
+    "banUser": "Nutzer bannen"
+    "banBot": "Bot bannen"
+    "allowUser": "Nutzer zulassen"
+    "trustUser": "Nutzer vertrauen"
     "trustBot": "Vertraue Bot"
-    "unbanUser": "Unban User"
+    "unbanUser": "Nutzer entbannen"
 
     "settings": "⚙️ Einstellungen"
 
@@ -81,8 +81,8 @@
     "disableLimit": "❌ Limit deaktivieren"
     "disableTimeLimit": "❌ Zeitlimit deaktivieren"
 
-    "permabanUser": "❌ Permaban-Benutzer"
-    "unPermabanUser": "🤝 Un-Permaban-Benutzer"
+    "permabanUser": "❌ Permaban-Nutzer"
+    "unPermabanUser": "🤝 Un-Permaban-Nutzer"
 
     "remove": "❌ Entfernen"
     "removeAllWarns": "❌ Alle Warnungen entfernen"
@@ -147,9 +147,9 @@
 
   "generic.permissionTypes": {
     "changeGroupInfo": "Gruppeninfo ändern"
-    "banUsers": "Benutzer sperren"
+    "banUsers": "Nutzer bannen"
     "deleteMessages": "Nachrichten löschen"
-    "inviteUsers": "Benutzer einladen"
+    "inviteUsers": "Nutzer einladen"
     "pinMessages": "PIN-Nachrichten"
     "doEverything": "Tun Sie alles, einschließlich des Hinzufügens neuer Administratoren"
   }
@@ -318,7 +318,7 @@
   /* ---------------------------------------------------------------------
                         JoinEvents - Used for Join Flow
      --------------------------------------------------------------------- */
-  "joinevents.error.CalsiBotNotEnoughPermissions": "<b>Eine Willkommensnachricht, JoinLock, JoinVerify oder JoinLimit ist derzeit aktiviert, aber ich habe momentan nicht genügend Administratorrechte...\n\nBitte stellen Sie sicher, dass ich kann </b><code>Gruppeninfo ändern</code><b> und </b><code>Benutzer sperren</code><b>.</b>"
+  "joinevents.error.CalsiBotNotEnoughPermissions": "<b>Eine Willkommensnachricht, JoinLock, JoinVerify oder JoinLimit ist derzeit aktiviert, aber ich habe momentan nicht genügend Administratorrechte...\n\nBitte stellen Sie sicher, dass ich kann </b><code>Gruppeninfo ändern</code><b> und </b><code>Nutzer sperren</code><b>.</b>"
   "joinevents.userPermabanned": "%s<b> wurde von einem Administrator dauerhaft aus dieser Gruppe ausgeschlossen\n\nIch habe sie entfernt.</b>"
   "joinevents.joinlockAddedByAdmin": "<b>Join Lock ist aktiviert, aber </b>%s<b> wurde hinzugefügt von </b>%s<b>, sie wurden also nicht getreten.</b>"
   "joinevents.joinlockMemberBanned": "%s<b> wurde gesperrt, weil Join Lock aktiviert ist</b>"
@@ -354,7 +354,7 @@
     "success": "<b>Erfolg!\n\nGute Arbeit, Mensch, du kannst jetzt chatten in: </b><code>%s</code>"
     "successAnswerText": "Erfolg! Sie können in chatten %s jetzt..."
     "manuallyTrusted": "%s<b> hat manuell vertraut </b>%s<b>.</b>"
-    "manuallyTrustedAnswerText": "Benutzer vertrauenswürdig"
+    "manuallyTrustedAnswerText": "Nutzer vertrauenswürdig"
     "expired": "<b>Diese Überprüfungsanforderung ist abgelaufen.</b>\n\nSie <b> wurde möglicherweise von den Administratoren der Gruppe manuell gesperrt oder als vertrauenswürdig eingestuft.</b> Oder das ist eine sehr alte Bitte."
     "expiredAnswerText": "Überprüfen Sie, Anforderung abgelaufen ist"
 
@@ -446,15 +446,15 @@
     "userPermabanned": "<a href=\"tg://user?id=%s\">Dieser Nutzer</a><b> wurde permabaniert von </b>%s"
     "userPermabannedAnswerText": "User Permabanned"
     "userAlreadyPermabanned": "<a href=\"tg://user?id=%s\">Dieser Nutzer</a><b> ist bereits permabaniert.</b>"
-    "userAlreadyPermabannedAnswerText": "Benutzer bereits permabaniert"
+    "userAlreadyPermabannedAnswerText": "Nutzer bereits permabaniert"
 
     "userUnPermabanned": "<a href=\"tg://user?id=%s\">Dieser Nutzer</a><b> wurde nicht permabaniert von </b>%s"
-    "userUnPermabannedAnswerText": "Benutzer nicht permabaniert"
+    "userUnPermabannedAnswerText": "Nutzer nicht permabaniert"
     "userAlreadyNotPermabanned": "<a href=\"tg://user?id=%s\">Dieser Nutzer</a><b> ist bereits nicht permabaniert</b>"
-    "userAlreadyNotPermabannedAnswerText": "Benutzer bereits nicht permabaniert"
+    "userAlreadyNotPermabannedAnswerText": "Nutzer bereits nicht permabaniert"
   }
 
-  "permaban.replyHint": "<b>Dem gewünschten Benutzer antworten </b><code>permaban</code>"
+  "permaban.replyHint": "<b>Dem gewünschten Nutzer antworten </b><code>permaban</code>"
 
 
   /* ---------------------------------------------------------------------
@@ -469,10 +469,10 @@
   }
 
   "restrict.info": {
-    "messages": "Steuert, ob der Benutzer überhaupt Nachrichten senden kann."
-    "media": "Steuert, ob der Benutzer Audio, Dokumente, Fotos, Videos, Videonotizen und Sprachnotizen senden kann."
-    "stickergifs": "Steuert, ob der Benutzer Animationen, Spiele, Sticker senden und Inline-Bots verwenden kann."
-    "linkpreviews": "Steuert, ob der Benutzer eine Linkvorschau zu seinen Nachrichten hinzufügen kann."
+    "messages": "Steuert, ob der Nutzer überhaupt Nachrichten senden kann."
+    "media": "Steuert, ob der Nutzer Audio, Dokumente, Fotos, Videos, Videonotizen und Sprachnotizen senden kann."
+    "stickergifs": "Steuert, ob der Nutzer Animationen, Spiele, Sticker senden und Inline-Bots verwenden kann."
+    "linkpreviews": "Steuert, ob der Nutzer eine Linkvorschau zu seinen Nachrichten hinzufügen kann."
   }
 
   "restrict.types": {
@@ -484,7 +484,7 @@
 
   "restrict.success": "%s wurde nun eingeschränkt %s von %s"
   "restrict.successTimed": "%s wurde nun eingeschränkt %s <b>bis %s (UTC) von </b>%s"
-  "restrict.replyHint": "<b>Antwort an den Benutzer, dessen Einschränkungen Sie bearbeiten möchten</b>"
+  "restrict.replyHint": "<b>Antwort an den Nutzer, dessen Einschränkungen Sie bearbeiten möchten</b>"
 
   "restrict.main": "<b>Verwenden Sie die nachstehenden Schalter, um auszuwählen, was </b>%s<b> kann hier senden:</b>"
   "restrict.mainTimed": "<b>Verwenden Sie die nachstehenden Schalter, um auszuwählen, was </b>%s<b> kann hier senden:\n\nDie Beschränkungen verfallen automatisch am:\n</b><code>%s %s</code>"
@@ -508,7 +508,7 @@
     "confirmRemoveAllWarnsAnswerText": "Bist du sicher?"
     "allWarnsRemovedBy": "Alle <a href=\"tg://user?id=%s\">dieser Nutzer</a><b> frühere Warnungen wurden von entfernt </b>%s"
     "allWarnsRemovedAnswerText": "Vorherige Warnungen entfernt"
-    "chooseMaxWarnsValue": "<b>Bei welcher Anzahl von Warnungen sollte ein Benutzer gebannt werden?</b>"
+    "chooseMaxWarnsValue": "<b>Bei welcher Anzahl von Warnungen sollte ein Nutzer gebannt werden?</b>"
     "chooseMaxWarnsValueAnswerText": "Wähle einen Wert"
     "maxWarnsValueChangedBy": "<b>Max. Warnung geändert von </b><code>%s</code><b> zu </b><code>%s</code><b> von </b>%s"
     "maxWarnsValueChangedAnswerText": "Neuer maximaler Warnsatz"
@@ -516,7 +516,7 @@
 
   "warn.noReasonGiven": "Ohne Grund"
 
-  "warn.replyHint": "<b>Dem Benutzer antworten, den Sie warnen möchten, e.g:</b>\n\n<code>/warn</code><b>, oder\n</b><code>/warn &lt;grund hier&gt;</code>"
+  "warn.replyHint": "<b>Dem Nutzer antworten, den Sie warnen möchten, e.g:</b>\n\n<code>/warn</code><b>, oder\n</b><code>/warn &lt;grund hier&gt;</code>"
 
   "warn.success": "%s<b> wurde gewarnt von </b>%s.%s\n\n<code>%s aus %s warnt</code>"
   "warn.userBanned": "%s<b> war verbannt. Erreicht </b><code>%s aus %s warnt</code>"
@@ -583,7 +583,7 @@
   <b>Infokarte für </b>%s<b>:</b>
 
   <code>Nutzername: </code>%s
-  <code>Benutzeridentifikation: </code>%s
+  <code>Nutzeridentifikation: </code>%s
   <code>Gruppen-ID: </code>%s
   '''
 
@@ -720,6 +720,6 @@
 
   "atAdmin.info": {
     "delete": "Soll die gemeldete Nachricht gelöscht werden? Beachten Sie, dass Bots keine Nachrichten löschen können, die älter als 48 Stunden sind..."
-    "ban": "Sollte der gemeldete Benutzer gesperrt werden?"
+    "ban": "Sollte der gemeldete Nutzer gesperrt werden?"
   }
 }
