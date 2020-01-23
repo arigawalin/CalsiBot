@@ -62,7 +62,7 @@
     "imSorry": "😭 Es tut mir leid!"
 
     "joinChannel": "👋 Kanal beitreten"
-    "tapToVerify": "🤖 Tippen Sie zur Bestätigung auf 🤖"
+    "tapToVerify": "🤖 Zum Verifizieren tippen 🤖"
 
     "banUser": "Nutzer bannen"
     "banBot": "Bot bannen"
@@ -81,8 +81,8 @@
     "disableLimit": "❌ Limit deaktivieren"
     "disableTimeLimit": "❌ Zeitlimit deaktivieren"
 
-    "permabanUser": "❌ Permaban-Nutzer"
-    "unPermabanUser": "🤝 Un-Permaban-Nutzer"
+    "permabanUser": "❌ Nutzer permabannen"
+    "unPermabanUser": "🤝 Permaban entfernen"
 
     "remove": "❌ Entfernen"
     "removeAllWarns": "❌ Alle Warnungen entfernen"
@@ -90,7 +90,7 @@
     "setMax": "🔢 Max. Einstellen"
     "back": "⬅️ Zurück"
 
-    "messages": "Mitteilungen"
+    "messages": "Nachrichten"
     "media": "Medien"
     "stickersAndGIFs": "Aufkleber & GIFs"
     "linkPreviews": "Link-Vorschau"
@@ -102,10 +102,10 @@
     "marryAccept": "🥰 Akzeptieren"
     "marryReject": "😒 Ablehnen"
 
-    "continueFishing": "🎣 Fischen Sie weiter"
-    "continueBuilding": "⚒ Bauen Sie weiter"
+    "continueFishing": "🎣 Weiter fischen"
+    "continueBuilding": "⚒ Weiter bauen"
 
-    "chooseAction": "🎭 Wählen Sie Aktion"
+    "chooseAction": "🎭 Wähle Aktion"
     "ignore": "🙈 Ignorieren"
 
     "changeLanguage": "🌐 Sprache Ändern"
