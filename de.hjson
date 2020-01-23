@@ -108,7 +108,7 @@
     "chooseAction": "🎭 Wähle Aktion"
     "ignore": "🙈 Ignorieren"
 
-    "changeLanguage": "🌐 Sprache Ändern"
+    "changeLanguage": "🌐 Sprache ändern"
   }
 
   # ℹ️ Note: For languages which don't use English numbers, these should be changed
@@ -129,41 +129,41 @@
 
   "generic.times": {
     "zero": "mal"
-    "one": "zeit"
+    "one": "mal"
     "other": "mal"
   }
 
   "generic.onlySupergroups": "<b>Dieser Befehl kann leider nur in Supergruppen verwendet werden</b>"
-  "generic.somethingWentWrongTryAgainLater": "<b>Es ist ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal...</b>"
+  "generic.somethingWentWrongTryAgainLater": "<b>Es ist ein Fehler aufgetreten. Bitte versuche es später noch einmal...</b>"
   "generic.rateLimit": "😡 <b>Ignoriert jetzt neue Nachrichten von </b>%s<b> da mehr als 3 Befehlsnachrichten in weniger als 1 Sekunde gesendet wurden. Bitte hör auf.</b>\n\n<i>Läuft in wenigen Minuten ab</i>"
 
   # ℹ️ Example: Reply to the person you want to /slap
   "generic.replyToThePersonYouWantTo": "<b>Antworte der gewünschten Person</b> %s"
-  "generic.needToReply": "<b>Sie müssen jemandem antworten.</b>"
+  "generic.needToReply": "<b>Du musst jemandem antworten.</b>"
 
-  "generic.needToBeAdmin": "<b>❌ Nicht erlaubt. Sie müssen:</b>\n\n1️⃣ Administrator sein\n2️⃣ Erlaubnis haben zu %s"
-  "generic.needToBeAdminAnswerText": "❌ Nicht erlaubt. Sie müssen:\n\n1️⃣ Administrator sein\n2️⃣ Erlaubnis haben zu %s"
-  "generic.CalsiBotNeedsToBeAdmin": "<b>❌ Damit dies funktioniert, %s muss</b>\n\n1️⃣ Administrator sein\n2️⃣ Erlaubnis haben zu %s"
+  "generic.needToBeAdmin": "<b>❌ Nicht erlaubt. Du musst:</b>\n\n1️⃣ Administrator sein\n2️⃣ Erlaubnis für %s haben"
+  "generic.needToBeAdminAnswerText": "❌ Nicht erlaubt. Du musst:\n\n1️⃣ Administrator sein\n2️⃣ Erlaubnis für %s haben"
+  "generic.CalsiBotNeedsToBeAdmin": "<b>❌ Damit dies funktioniert, muss %s</b><b>:</b>\n\n1️⃣ Administrator sein\n2️⃣ Erlaubnis für %s haben"
 
   "generic.permissionTypes": {
-    "changeGroupInfo": "Gruppeninfo ändern"
+    "changeGroupInfo": "Gruppen-Info ändern"
     "banUsers": "Nutzer bannen"
     "deleteMessages": "Nachrichten löschen"
     "inviteUsers": "Nutzer einladen"
-    "pinMessages": "PIN-Nachrichten"
-    "doEverything": "Tun Sie alles, einschließlich des Hinzufügens neuer Administratoren"
+    "pinMessages": "Nachrichten anheften"
+    "doEverything": "alles machen, einschließlich des Hinzufügens neuer Admins"
   }
 
   "generic.loaded": "Geladen"
-  "generic.disabled": "Behindert"
-  "generic.enabled": "aktiviert"
-  "generic.cancelled": "Abgesagt"
-  "generic.currently": "Zur Zeit"
-  "generic.none": "Keiner"
+  "generic.disabled": "Deaktiviert"
+  "generic.enabled": "Aktiviert"
+  "generic.cancelled": "Abgebrochen"
+  "generic.currently": "Momentan"
+  "generic.none": "Nichts"
   "generic.note": "Hinweis"
   "generic.reasonColon": "Grund:"
   "generic.deleteQuestion": "Löschen?"
-  "generic.banQuestion": "Verbot?"
+  "generic.banQuestion": "Bann?"
   "generic.and": "und"
 
   # ℹ️ Example: Exception was added by an admin.
@@ -623,7 +623,7 @@
                         Language - Used for /language
      --------------------------------------------------------------------- */
   # ℹ️ NOTE: This should be the native name of the language.
-  "language.name": "Deutsche"
+  "language.name": "Deutsch"
   "language.main": "<b>Ihre Sprache ist derzeit auf eingestellt:</b>\n<code>%s</code>"
   "language.credit": "<b>Diese Sprache wird durch die </b><a href=\"https://github.com/CalsiBotDev/CalsiBot/\">harte Arbeit</a><b> der folgenden Personen ermöglicht:</b>\n"
   # ℹ️ NOTE: The contributors string should NOT be changed by anyone other than me, or those who are already listed
